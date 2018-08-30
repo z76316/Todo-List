@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://z76316.github.io/Todo-List/",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "keywords": [],
   "author": "",
